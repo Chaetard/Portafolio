@@ -1,0 +1,52 @@
+.titulos{
+  color: green;
+}
+#t2{
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#scout{
+  width: 200px;
+  border-width: 5px;
+  border-color: black !important;
+  border-style: double solid dotted dashed;
+  background-color: red;
+  padding: 10%;
+  margin: 100px 50px 100px 23px;
+}
+.bajo{
+  background-color: blue;
+}
+main{
+  background-color: rgb(77, 0, 128);
+  border-style: solid;
+}
+img[alt]{
+  border-radius: 50%;
+}
+[type="radio"]{
+  margin: 15px;
+}
+a[href="https://images.foxtv.com/static.ktvu.com/www.ktvu.com/content/uploads/2021/06/932/470/78-99-pride-flag.jpeg?ve=1&tl=1"]{
+  text-decoration: none;
+  color: green ;
+
+}
+body{
+  background-color: rgb(33, 23, 355);
+}
+#scout{
+  border-color: blue;
+}
+/*VW RELATIVO AL TAMAÑO DE LA VENTANA
+EM RELATIVO AL TAMAÑO DE LA LETRA*/
+/*definir mas clases con un espacio*/
+/*se priorisa el ultimo valor dentro de la hoja*/
+/*la clase es mas especifica, ID TIENEN MAYOR PRIORIDAD*/
+/*USE !IMPORTANT para marcar la prioridad*/
+/* -- es una variable */
+
+/* :root{
+  --variable
+} */
