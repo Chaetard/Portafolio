@@ -4,43 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prueba Portafolio</title>
+  <title>Portafolio</title>
   <link rel="icon" type="image/png" href="source/favicon.png"/>
-  <link rel="stylesheet" href="style.css">
+  <!--Bootrstrap Local-->
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styleD.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap'); </style>
 </head>
 <!-- TODO: HACER EL PORTAFOLIO-->
 <body>
-  <main>
-    <H1 class="titulos">titulo</H1>
+  <div class="container-fluid bg">
+    <h1 class="text-primary text-center">Jesus Santos</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">columna 1</div>
+      <div class="col">columna 2</div>
+      <div class="col">columna 3</div>
+      <!-- <div class="w100"></div> -->
+      <div class="col">columna 4</div>
+      <div class="col">columna 5</div>
+      <div class="col" id="col6">columna 6</div>
+    </div>
+    <div class="row">
+      <div class="col">columna 1</div>
+      <div class="col-auto">col 2</div>
+    </div>
+    <div class="row">
+      <div class="col-5">col 5</div>
+      <div class="col-3">col 3</div>
+      <div class="col-4">col 4</div>
+    </div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </div>
 
-    <hr>
-    <h2 class="titulos" id="t2">titulo 2</h2>
-        <P>Parrafo  <a href="https://images.foxtv.com/static.ktvu.com/www.ktvu.com/content/uploads/2021/06/932/470/78-99-pride-flag.jpeg?ve=1&tl=1" target="_blank" rel="noopener noreferrer">GAY </a>titulo 2</P>
-    <h3>Last Commit Test </h3>
-      <a href="https://www.youtube.com/watch?v=geNMz0J9TEQ" rel="noopener noreferrer" target="_blank"><img id="scout" src="https://wiki.teamfortress.com/w/images/thumb/c/c9/Scouttaunt3.PNG/350px-Scouttaunt3.PNG" alt="Foto del scout TF2"></a>
-    <hr>
-  
-      <a href="#parrafo1">Parrafo 1</a>
-  </main>
-  <div class="bajo">
-  <h3 id="parrafo1">Parrafo 1</h3>
-  <p>Lorem ipsum <s> JIJIJAIJDIHSAIDHSAI </s> sit amet consectetur adipisicing elit. Minus ipsam reiciendis odit, adipisci, enim deserunt <strong> magni est placeat eos </strong>, itaque beatae optio <em>voluptas non nam laborum fugit tenetur molestiae</em>.</p>
-
-  <!--ul // li lista no ordenada-->
-  <!-- ol lista ordenada-->
-
-  <hr> 
-<form action="">
-  <input type="text" name="" placeholder="Nombre" required>
-  <input type="radio" name="HOLAS">HOLA
-  <label for="ANTIHOLA"><input type="radio" id="ANTIHOLA" name="HOLAS">ANTIHOLA</label>
-
-  <label for="H"><input type="checkbox" name="" id="H">jola</label>
-  <label for="HD"><input type="checkbox" name="" id="HD" checked>jolaD</label>
-
-<!--VALUE ES PARA DEFINIR VALOR PARA LA BD VALUE="JOLAD"-->
-  <button type="submit"> enviar </button>
-</form>
-</div>
+  <!--JS BOOTSTRAP LOCAL-->
+  <script src="styles/bootstrap.bundle.min.js"></script>
 </body>
 </html>

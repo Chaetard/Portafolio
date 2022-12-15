@@ -1,0 +1,18 @@
+.bg{
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  font-size: 40px;
+  font-family: 'Heebo', sans-serif;
+  padding: 1.3vw;
+  
+}
+[class="container-fluid"]:nth-child(even){
+  background-color: orange;
+}
+[class="col"]:nth-child(odd){
+  background-color:blue;
+}
+#col6{
+  background-color: black;
+}
