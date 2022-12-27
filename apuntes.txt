@@ -1,0 +1,10 @@
+<!--
+  XS MENOS DE 576PX
+  SM MAS DE 576PXT MENOS DE 768PX
+  MD mas de 768 y menos de 992px
+  LG mas de 992px y menos de 1200px
+  XL mas de 1200px y menos de 1400px
+  XXL mas de 1400px 
+
+  row cols auto= el ancho es igual al contenido que guardan
+-->

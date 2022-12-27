@@ -18,13 +18,13 @@
   <div class="container-fluid bg">
     <h1 class="text-primary text-center">Jesus Santos</h1>
   </div>
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="row">
       <div class="col">columna 1</div>
       <div class="col">columna 2</div>
       <div class="col">columna 3</div>
       <!-- <div class="w100"></div> -->
-      <div class="col">columna 4</div>
+      <!-- <div class="col">columna 4</div>
       <div class="col">columna 5</div>
       <div class="col" id="col6">columna 6</div>
     </div>
@@ -40,9 +40,37 @@
     <div class="row"></div>
     <div class="row"></div>
     <div class="row"></div>
+  </div> --> 
+
+  <div class="row row-cols-3"> <!--numero de columnas establecido-->
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+  </div>
+  <br>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4"> <!--numero de columnas establecido por tamaño-->
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
+    <div class="col">columnas</div>
   </div>
 
   <!--JS BOOTSTRAP LOCAL-->
   <script src="styles/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!--
+  XS MENOS DE 576PX
+  SM MAS DE 576PXT MENOS DE 768PX
+  MD mas de 768 y menos de 992px
+  LG mas de 992px y menos de 1200px
+  XL mas de 1200px y menos de 1400px
+  XXL mas de 1400px 
+
+  row cols auto= el ancho es igual al contenido que guardan
+-->
